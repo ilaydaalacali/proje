@@ -7,5 +7,9 @@
         public function index() {
             $this->load->view("main");
         }
+
+        public function hakkimizda() {
+            $this->load->view("hakkımızda");
+        }
     }
 ?>
