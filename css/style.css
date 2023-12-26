@@ -76,6 +76,14 @@ a{
     border-bottom: 0.1rem solid #fff;
 }
 
+.search-input {
+    font-size: 1.6rem;
+    color: var(--black-color);
+    padding: 1rem;
+    text-transform: none;
+    border-radius: 3rem;
+}
+
 
 /*! header sytart */
 .header .logo img {
@@ -362,3 +370,25 @@ a{
     font-weight: bold;
 }
 /*! Bizeulaşın end */
+
+/*! footer start */
+.footer {
+    background-color: var(--black-color);
+    text-align: center;
+}
+
+.footer .search{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .search .search-input {
+    width: 30rem;
+}
+
+.footer .search .btn {
+    background-color: var(--main-color);
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+}
+/*! footer end */

@@ -265,6 +265,19 @@
      </section>
      <!--! Bizeulaşın section end -->
 
+     <!--! footer section start -->
+     <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="search" />
+            <button class="btn btn-primary">search</button>
+        </div>
+        <div class="share">
+            <div class="a"></div>
+        </div>
+     </section>
+     <!--! footer section end -->
+
+
 
 
 
