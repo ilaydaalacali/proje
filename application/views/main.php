@@ -21,13 +21,13 @@
             <img src="images/logo.png" alt="logo">
         </a>
         <nav class="navbar">
-            <a href="#" class="active">Anasayfa</a>
+            <a href="<?php echo base_url("main")?>" class="active">Anasayfa</a>
             <a href="<?php echo base_url("main/hakkimizda")?>">Hakkımızda</a>
-            <a href="#">Yeni Projeler</a>
-            <a href="#">Devam Eden Projeler</a>
-            <a href="#">Biten Projeler</a>
-            <a href="#">PVC / Marangoz</a>
-            <a href="#">İletişim</a>
+            <a href="<?php echo base_url("main/yeni_projeler")?>">Yeni Projeler</a>
+            <a href="<?php echo base_url("main/devam_eden_projeler")?>">Devam Eden Projeler</a>
+            <a href="<?php echo base_url("main/biten_projeler")?>">Biten Projeler</a>
+            <a href="<?php echo base_url("main/pvc_marangoz")?>">PVC / Marangoz</a>
+            <a href="<?php echo base_url("main/iletisim")?>">İletişim</a>
         </nav>
 
         <div class="buttons">
@@ -265,17 +265,6 @@
      </section>
      <!--! Bizeulaşın section end -->
 
-     <!--! footer section start -->
-     <section class="footer">
-        <div class="search">
-            <input type="text" class="search-input" placeholder="search" />
-            <button class="btn btn-primary">search</button>
-        </div>
-        <div class="share">
-            <div class="a"></div>
-        </div>
-     </section>
-     <!--! footer section end -->
 
 
 

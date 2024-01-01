@@ -11,5 +11,20 @@
         public function hakkimizda() {
             $this->load->view("hakkımızda");
         }
+        public function yeni_projeler() {
+            $this->load->view("yeni_projeler");
+        }
+        public function devam_eden_projeler() {
+            $this->load->view("devam_eden_projeler");
+        }
+        public function biten_projeler() {
+            $this->load->view("biten_projeler");
+        }
+        public function pvc_marangoz() {
+            $this->load->view("pvc_marangoz");
+        }
+        public function iletisim() {
+            $this->load->view("iletişim");
+        }
     }
 ?>
