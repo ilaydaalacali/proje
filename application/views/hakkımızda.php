@@ -22,6 +22,7 @@
         <div class="row">
             <div class="content">
                 <h3>AZİZOĞULLARI İNŞAAT</h3>
+                <h3><?php echo $header?></h3>
                 <p>1986 yılında taşeron olarak çalışmaya başlayan Sıddık ALACALI, Necat ALACALI ve Mehmet ALACALI olmak üzere 3 erkek kardeşlerin kurduğu köklü bir aile şirketidir. 11 yıl boyunca taşeronluk tecrübesi edinmişlerdir.1997 ile 2004 yılları arasında ihale usulü ile inşaat sektöründe çalışmalarına devam etmişlerdir.2004 yılından sonraki dönemde yap-sat metoduyla bir çok kişiyi ev sahibi etmektedir.
                 </p>
                 <p>

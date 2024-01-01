@@ -2,6 +2,7 @@
     class Main extends CI_Controller {
         public function __contruct() {
             parent::__construct();
+            $this->load->model("Panel");
         }
 
         public function index() {
@@ -9,6 +10,12 @@
         }
 
         public function hakkimizda() {
+            $hakkimizda = $this->Panel->sayHello();//$this->Panel->getHakkimizda();
+            /*
+            $veriler = array(
+                $header => $hakkimizda->result()->header
+            );*/
+
             $this->load->view("hakkımızda");
         }
         public function yeni_projeler() {

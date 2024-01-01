@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-
-<title>Yönetim Paneli Giriş</title>
-
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 </head>
-
 <body>
-
-
-
-<form id="form1" runat="server">
-</form>
-
+	<h1>Admin giriş ekranı</h1>
+	<form action="<?php echo base_url("admin/login_post")?>" method="post">
+		<input type="text" name="username" id="username" placeholder="Kullanıcı adı" required>
+		<input type="password" name="password" id="password" placeholder="Şifre" required>
+		<input type="submit" value="Gönder">
+	</form>
+	<?php echo base64_encode("wormer")?>
+	<?php echo $this->session->admin_username?>
 </body>
+</html>
