@@ -1,5 +1,5 @@
 <header class="header">
-        <a href="#" class="logo">
+        <a href="<?php echo base_url('')?>" class="logo">
             <img src="../images/logo.png" alt="logo">
         </a>
         <nav class="navbar">

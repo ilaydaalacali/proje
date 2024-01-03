@@ -52,3 +52,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Main';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+// Detaylı rotalandırmalar
+$route['edit/hakkimizda'] = 'Edit/hakkimizda_edit';
+$route['edit/yeni_projeler/(:any)'] = 'Edit/yeni_projeler_edit/$1';
+$route['edit/devam_eden_projeler/(:any)'] = 'Edit/devam_eden_projeler_edit/$1';
+$route['edit/biten_projeler/(:any)'] = 'Edit/biten_projeler_edit/$1';
+
+$route['show/yeni_projeler'] = 'Show/yeni_projeler';
+
+$route['new/yeni_proje'] = 'New_Record/yeni_proje_ekle';
+$route['new/devam_eden_proje'] = 'New_Record/devam_eden_proje_ekle';
+$route['new/biten_proje'] = 'New_Record/biten_proje_ekle';
+/*
+$route['create/yeni_projeler'] = 'Create/yeni_projeler_edit';
+$route['create/devam_eden_projeler'] = 'Create/yeni_projeler_edit';
+$route['create/biten_projeler'] = 'Create/yeni_projeler_edit';*/

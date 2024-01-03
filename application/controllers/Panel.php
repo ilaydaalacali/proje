@@ -11,7 +11,7 @@
 		}
 
 		public function index() {
-			echo "Panel giriş sayfasına hoşgeldiniz";
+			$this->load->view("panel/index");
 		}
 	}
 ?>

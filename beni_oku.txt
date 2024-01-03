@@ -1,0 +1,30 @@
+Kayıt düzenleme:
+
+/edit/hakkmizda
+/edit/yeni_projeler/(buraya bir numara geliyor)
+/edit/devam_eden_projeler/(buraya bir numara geliyor)
+/edit/biten_projeler/(buraya bir numara geliyor)
+
+Yeni, devam eden ve biten projelerin listelendiği yer:
+
+/show/yeni_projeler
+/show/devam_eden_projeler
+/show/biten_projeler
+
+Ekleme yapılan yer:
+
+/new/yeni_projeler
+/new/devam_eden_projeler
+/new/biten_projeler
+
+
+panel sayfası: /panel
+panel sayfasına giriş için oturum açman lazım:
+- /admin/login
+username: wormer
+password: wormer
+###########################################
+
+create_database.sql dosyasının içini kopyala ve http://localhost/phpmyadmin kısmında sql yerine yapıştır sonra çalıştır
+
+hepsini dene sonra
