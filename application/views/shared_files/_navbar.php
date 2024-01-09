@@ -10,6 +10,13 @@
             <a href="<?php echo base_url("main/biten_projeler")?>">Biten Projeler</a>
             <a href="<?php echo base_url("main/pvc_marangoz")?>">PVC / Marangoz</a>
             <a href="<?php echo base_url("main/iletisim")?>">İletişim</a>
+            <?php
+                if ($signed_in) {
+                    echo "<a href='".base_url("/panel")."'>Admin paneli</a>";
+                } else {
+                    echo "<a href='".base_url("/admin/login")."'>Admin girişi</a>";
+                }
+            ?>
         </nav>
 
         <div class="buttons">
